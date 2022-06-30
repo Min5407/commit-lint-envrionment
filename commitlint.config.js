@@ -1,5 +1,5 @@
 const configuration = {
-  extends: ["@commitlint/config-conventional"],
+  extends: ["gitmoji"],
   helpUrl:
     "https://github.com/conventional-changelog/commitlint/#what-is-commitlint",
   prompt: {
@@ -7,8 +7,13 @@ const configuration = {
       type: {
         description: "Select the type of change that you're committing",
         enum: {
-          feat: {
+          "🐛test": {
             description: "A new feature",
+            title: "Features",
+            emoji: "✨",
+          },
+          feats: {
+            description: "A new feasture",
             title: "Features",
             emoji: "✨",
           },
