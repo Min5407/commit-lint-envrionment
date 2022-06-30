@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git-cz",
+    "commit": "cz",
     "prepare": "husky install"
   },
   "repository": {
@@ -23,11 +23,23 @@
     "@commitlint/config-conventional": "^17.0.3",
     "@commitlint/cz-commitlint": "^17.0.3",
     "commitizen": "^4.2.4",
+    "commitizen-emoji": "^1.0.5",
+    "commitlint-config-gitmoji": "^2.2.5",
     "husky": "^8.0.1"
   },
   "config": {
     "commitizen": {
-      "path": "@commitlint/cz-commitlint"
+      "path": "./node_modules/commitizen-emoji"
+    },
+    "commitizenEmoji": {
+      "types": [
+        {
+          "emoji": "😱",
+          "code": ":scream:",
+          "description": "I don't understand a bit in all this code.",
+          "name": "wtf"
+        }
+      ]
     }
   }
 }
