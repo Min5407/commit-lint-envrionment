@@ -7,14 +7,9 @@ const configuration = {
       type: {
         description: "Select the type of change that you're committing",
         enum: {
-          "🐛test": {
-            description: "A new feature",
-            title: "Features",
-            emoji: "✨",
-          },
-          feats: {
-            description: "A new feasture",
-            title: "Features",
+          feat: {
+            description: "A new test",
+            title: "T2",
             emoji: "✨",
           },
           fix: {
