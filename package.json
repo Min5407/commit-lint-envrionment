@@ -1,0 +1,25 @@
+{
+  "name": "lintcommit",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000c\u0000o\u0000m\u0000m\u0000i\u0000t\u0000-\u0000l\u0000i\u0000n\u0000t\u0000-\u0000e\u0000n\u0000v\u0000r\u0000i\u0000o\u0000n\u0000m\u0000e\u0000n\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Min5407/commit-lint-envrionment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Min5407/commit-lint-envrionment/issues"
+  },
+  "homepage": "https://github.com/Min5407/commit-lint-envrionment#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "husky": "^8.0.1"
+  }
+}
